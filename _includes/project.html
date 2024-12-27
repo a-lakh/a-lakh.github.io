@@ -1,0 +1,11 @@
+<section class="hero is-fullheight has-text-centered" id="blog">
+    <br><br>
+    <h1 class="title is-1 is-uppercase has-text-weight-bold">Publications</h1>
+    <hr class="has-background-black proj-hr">
+    <div id="results-container"></div>
+        <!--Blog Cards Section-->
+        {% for project in site.posts %}
+            {% include project-card.html %}
+        {% endfor %}
+    </div>
+</section>

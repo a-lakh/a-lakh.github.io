@@ -1,0 +1,8 @@
+@inproceedings{gaddipati2019glaucoma,
+  title={Glaucoma assessment from oct images using capsule network},
+  author={Gaddipati, Divya Jyothi and Desai, Alakh and Sivaswamy, Jayanthi and Vermeer, Koenraad A},
+  booktitle={2019 41st annual international conference of the IEEE engineering in medicine and biology society (EMBC)},
+  pages={5581--5584},
+  year={2019},
+  organization={IEEE}
+}

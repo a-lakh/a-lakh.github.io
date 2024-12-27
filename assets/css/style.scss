@@ -57,7 +57,7 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.25;
+        opacity: 0.45;
         content: "";
     }
 }
@@ -126,6 +126,73 @@ a.navbar-item.is-active {
         -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            transform: scale(0.875);
+            -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        @media (max-width: 768px) {
+            transform: scale(1);
+            margin-bottom: 5vmax !important;
+
+            &:hover {
+                transform: scale(1.025);
+                margin-bottom: 5vmax !important;
+                -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+                -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+            }
+
+            .image {
+                padding-top: 50% !important;
+            }
+        }
+
+        .title {
+            margin: 0.5rem !important;
+        }
+
+        .content {
+            margin: 0.5rem;
+        }
+
+        .column {
+            display: grid;
+
+            .image {
+                border-radius: 0.25rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+#project {
+    .hero-body {
+        padding: 3rem 0.25rem 1rem 0.25rem;
+    }
+
+    .container {
+        margin: 1.5rem auto;
+    }
+
+    #project-card {
+        transition: all 0.25s ease;
+        margin-bottom: 0.5vmax;
+        transform: scale(0.85);
+        margin-right: 2.5vmax;
+        margin-left: 2.5vmax;
+        line-height: normal;
+        border-radius: 0.25rem;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        display: flex;
 
         &:hover {
             transform: scale(0.875);
@@ -257,38 +324,6 @@ a.navbar-item.is-active {
     }
 }
 
-#project {
-    .columns {
-        .column {
-            border-radius: 0.5rem;
-            .image {
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-        }
-    }
-
-    #project-card {
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        transform: scale(0.95);
-        transition: all 0.5s ease;
-        margin-bottom: 0.5rem !important;
-        display: inline-table;
-        &:hover {
-            transform: scale(0.975);
-        }
-    }
-    .card {
-        transition: all 0.25s ease;
-        &:hover {
-            background-color: rgba($color: #000000, $alpha: 0.90)!important;
-        }
-    }
-}
-
 #post {
     @media (min-width: 768px) {
         margin: auto 2.5vmax;
@@ -352,4 +387,69 @@ a.navbar-item.is-active {
             display: inline-block;
         }
     }
+}
+
+// My edits
+.authimage{
+    width: 20%;
+    display: inline;
+    border-radius: 290486px;
+}
+
+.pad05{
+    padding: 0.5rem 
+}
+
+.proj-hr{
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.edu-table{
+    width:80%;
+}
+
+.edu-section{
+    color: white;
+}
+
+.edu-row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+padding:1rem;
+}
+
+.edu-column {
+display: flex;
+flex-direction: column;
+flex-basis: 100%;
+flex: 1;
+}
+
+.edu-column .content{
+    margin-top:-0.38rem;
+}
+
+.logo-column{
+    flex:0.3;
+    padding-right: 1rem;
+}
+
+.edu-flex-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.edu-flex-container a {color: white;}
+
+.edu-row:hover{
+    color: white;
+    text-shadow: #3273dc;
+    font-size: 1.1rem!important;
 }

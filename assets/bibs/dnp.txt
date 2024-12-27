@@ -1,0 +1,8 @@
+@inproceedings{desai2025improving,
+  title={Improving image synthesis with diffusion-negative sampling},
+  author={Desai, Alakh and Vasconcelos, Nuno},
+  booktitle={European Conference on Computer Vision},
+  pages={199--214},
+  year={2025},
+  organization={Springer}
+}

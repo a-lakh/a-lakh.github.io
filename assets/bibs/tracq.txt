@@ -1,0 +1,8 @@
+@article{desai2022single,
+    title={Single-stage visual relationship learning using conditional queries},
+    author={Desai, Alakh and Wu, Tz-Ying and Tripathi, Subarna and Vasconcelos, Nuno},
+    journal={Advances in Neural Information Processing Systems},
+    volume={35},
+    pages={13064--13077},
+    year={2022}
+}

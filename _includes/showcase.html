@@ -1,6 +1,11 @@
 <section class="hero is-fullheight has-text-centered" id="hero">
   <div class="hero-body">
     <div class="container">
+      <div class="column">
+        <figure>
+          <img class="is-rounded authimage" src="{{site.author-image}}" alt="{{site.author-name}}" style="padding-top: 0.6rem; width: 18%;">
+        </figure>
+      </div>
       <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
         {{site.title}}
       </h1>
@@ -8,9 +13,21 @@
         {{site.description}}
       </h3>
       <hr>
-      <a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
-      </a>
+      <p class="has-text-white" style="font-size: 1.2rem;">I am a PhD student at <b>UC San Diego</b>, where I am working in <b>Statistical Visual Computing Laboratory (SVCL)</b> and advised by Professor <b>Nuno Vasconcelos</b>. 
+        My primary research focuses on generative AI and multimodal learning, with a particular interest in understanding the underlying feature spaces of these models.
+        My work aims to better understand the underlying dynamics that govern generative processes and explore methods to improve their efficiency and accuracy. 
+      </p>
+      <br>
+      <p class="has-text-white" style="font-size: 1.2rem;">
+        Additionally, I am also interested in the challenges posed by long-tailed data distributions, specifically examining their effects on scene graph construction and how these distributions influence the reliability of computer vision models in the open world,
+      </p>
+      <br>
+      <p class="has-text-white" style="font-size: 1.1rem;">If not working you can find me at a movie theatre or on my couch binging a series or an anime! </p>
+      <br>
+      <div class="contact">
+        {% include contact.html %}
+      </div>
     </div>
+  </div>
   </div>
 </section>

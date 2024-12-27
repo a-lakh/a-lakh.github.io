@@ -1,0 +1,8 @@
+@inproceedings{desai2020image,
+  title={Image segmentation using hybrid representations},
+  author={Desai, Alakh and Chauhan, Ruchi and Sivaswamy, Jayanthi},
+  booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--4},
+  year={2020},
+  organization={IEEE}
+}
